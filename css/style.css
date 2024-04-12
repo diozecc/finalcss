@@ -1,0 +1,233 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: #666666;
+	margin: 0;
+}
+.top-bar{
+	width: 100%;
+	height: 50px;
+	color: #FFFFFF;
+	background-color: black;
+	line-height: 50px;
+	border-bottom: 0.1px solid #ffffff4d;
+}
+.mi{
+	margin-left: 5px;
+	font-size: 14px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.menu ul{
+	display: flex;
+	list-style: none;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #FFFFFF;
+	margin-right:  40px;
+}
+.menu ul li a:hover{
+	color:#8D8D8D; 
+}
+.logo{
+	width: 140px;
+	float: left;
+}
+.banner{
+	width: 100%;
+	min-height: 500px;
+	left: 0;
+	top: 0;
+}
+header{
+	width: 100%;
+	height: 75px;
+	background-color: black;
+	font-size: 14px;
+}
+.menu{
+	width: 100%;
+	height: 50px;
+	background-color: black;
+}
+.menu ul i{
+	margin-top:30px;
+	margin-left: 20px;
+	color: #FFFFFF;
+	font-size: 20px;
+}
+.menu ul li{
+	margin-top: 30px;
+	margin-left: 10px;
+}
+.menu input{
+	margin-left: 40px;
+	margin-top: 15px;
+	width: 20%;
+	height: 40px;
+	border-radius: 5px;
+}
+.caption{
+	width: 20%;
+	position: absolute;
+	left: 20%;
+	top: 50%;
+	z-index: 3;
+}
+.caption h2{
+	font-size: 30px;
+	color: #ffffff;
+
+}
+.caption h1{
+	font-size: 50px;
+	color: #ffffff;
+}
+.caption p{
+	color: white;
+	font-size: 18px;
+}
+main{
+	width: 100%;
+	min-height: 400px;
+	margin-top: 100px;
+}
+.owl-dots {
+	position:absolute;
+	bottom: 45%; 
+	left:98%;
+	display: flex;
+	flex-direction: column;
+	z-index: 3;
+}
+.item img{
+	filter: brightness(0.5); 
+}
+.w-25{
+	width: 15%;
+	display: flex;
+	margin-top: 50px;
+	margin-left: 40px;
+}
+.box-icon{
+	margin-right: 20px;
+}
+.box-text h3{
+	font-size: 20px;
+}
+.box-text p{
+	font-size: 14px;
+}
+.box-text a{
+	color: #000000;
+	font-size: 12px;
+	font-weight: bold;
+}
+.cover{
+	width: 100%;
+	height: 300px;
+	background-color: rgb(244, 244, 244);
+	margin-top: 50px;
+}
+.help-block-intro{
+	width: 35%;
+	height: auto;
+	margin-top: 70px;
+}
+.help-block-intro h3{
+	font-size: 30px;
+	color: rgb(110, 134, 250);
+}
+.help-block-intro p{
+	font-size: 16px;
+	color: #000000;
+}
+.help-block-intro a{
+	color: #000000;
+	font-size: 14px;
+	text-decoration: none;
+	font-weight: bold;
+	margin-right: 20px;
+}	
+.help-block-icon{
+	background-color: rgb(244, 244, 244);
+	width: 22%;
+	margin-top: 50px;
+	margin-left: 60px;
+}
+.help-block-icon a{
+	color: #000000;
+	font-size: 14px;
+	text-decoration: none;
+	font-weight: bold;
+	margin-right: 20px;
+}
+main h1{
+	font-size: 40px;
+	color: rgb(110, 134, 250);
+	font-weight: bold;
+	height: 70px;
+}
+.cards a{
+	margin-left: 60px;
+	text-decoration: none;
+	font-size: 22px;
+	color: #000000;
+}
+.cards a:hover{
+	color: rgb(88, 9, 247);;
+}
+.cards a:active{
+	text-decoration: underline;
+}
+
+.cards-body{
+	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.iteams a{
+	padding: 10px;
+	margin: 10px; 
+	flex: 1 0 20%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-decoration: none;
+}
+.cards a:first-child{
+	color: rgb(88, 9, 247);
+	text-decoration: underline;
+}
+.iteams img{
+	width: 100%;
+	height: 270px;
+	background-color: #bf0c0c;
+	filter: brightness(0.97);
+	overflow: hidden;
+}
+.iteams h3{	
+	font-size: 16px;
+	color: #000000;
+	font-weight: bold;
+}
+.iteams p{
+	font-size: 14px;
+	color: #000000;
+}
+.iteams:hover{
+    transform: matrix(1.01, 0, 0, 1.01, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px #88888838;
+}
+.iteams img:hover{
+	filter: brightness(0.95);
+}
+.iteams h3:hover{
+	color: #000000b5;
+}
