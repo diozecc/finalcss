@@ -1,0 +1,19 @@
+.effecthover a{
+    display: block;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+}
+.effecthover a::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0.5px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(0, 0, 255);
+    transition: all 0.3s ease-in-out 0s;
+}
+.effecthover a:hover::after{
+    width: 100%;
+}

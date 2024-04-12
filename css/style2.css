@@ -115,9 +115,9 @@ footer{
     font-size: 14px;
     display: flex;
 }
-.policy a:hover{
+/* .policy a:hover{
     text-decoration: underline;
-}
+} */
 .info1{
     width: 100%;
 }
